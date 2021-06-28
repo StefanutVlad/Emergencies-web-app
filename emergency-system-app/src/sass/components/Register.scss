@@ -1,0 +1,101 @@
+.register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+}
+
+h5 {
+  display: block;
+  font-size: 1.2em;
+  margin-block-start: 0.7em;
+  margin-block-end: 0.7em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.reg-p {
+  font-size: 15px;
+}
+.reg-a-section {
+  margin-bottom: 0px;
+}
+
+.reg-a-spacing-top-extra-large {
+  margin-top: 0px !important;
+}
+
+.reg-a-divider.reg-a-divider-section .reg-a-divider-inner {
+  height: 44px;
+  margin-bottom: -40px;
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  z-index: 0;
+  zoom: 1;
+}
+
+.reg-a-divider.reg-a-divider-section .reg-a-divider-inner:after {
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: transparent;
+  background: -webkit-linear-gradient(
+    to right,
+    #fff,
+    rgba(255, 255, 255, 0),
+    #fff
+  );
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+  z-index: 1;
+  content: "";
+}
+
+.alert.alert-success {
+  text-align: center;
+}
+
+.row .form-group {
+  button {
+    margin: 30px 0px;
+  }
+}
